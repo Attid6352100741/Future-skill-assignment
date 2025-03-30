@@ -6,7 +6,7 @@ Resource    ../Keywords/login_page.robot
 
 
 *** Test Cases ***
-Register page testing
+Open Browser testing
     SeleniumLibrary.Open Browser    ${baseUrl}      gc
 
 

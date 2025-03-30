@@ -1,144 +1,144 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.2.2 (Python 3.13.2 on win32)" generated="2025-03-30T11:57:06.887892" rpa="false" schemaversion="5">
+<robot generator="Robot 7.2.2 (Python 3.13.2 on win32)" generated="2025-03-30T12:12:53.423822" rpa="false" schemaversion="5">
 <suite id="s1" name="Login Page" source="C:\Users\Meow\Desktop\Future skill assignment\testcases\login_page.robot">
-<test id="s1-t1" name="Register page testing" line="9">
+<test id="s1-t1" name="Open Browser testing" line="9">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2025-03-30T11:57:07.297330" level="INFO">Opening browser 'gc' to base url 'https://app.futureskill.co/'.</msg>
+<msg time="2025-03-30T12:12:53.645863" level="INFO">Opening browser 'gc' to base url 'https://app.futureskill.co/'.</msg>
 <arg>${baseUrl}</arg>
 <arg>gc</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2025-03-30T11:57:07.296863" elapsed="3.015120"/>
+<status status="PASS" start="2025-03-30T12:12:53.645589" elapsed="2.179480"/>
 </kw>
-<status status="PASS" start="2025-03-30T11:57:07.296032" elapsed="3.016422"/>
+<status status="PASS" start="2025-03-30T12:12:53.644898" elapsed="2.180810"/>
 </test>
 <test id="s1-t2" name="Register page testing" line="13">
 <kw name="Click register button on login page" owner="login_page">
 <kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
 <arg>xpath=//h6[text()="คลิกเพื่อสมัครสมาชิก"]</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" start="2025-03-30T11:57:10.315523" elapsed="0.156444"/>
+<status status="PASS" start="2025-03-30T12:12:55.827679" elapsed="0.123564"/>
 </kw>
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2025-03-30T11:57:10.472458" level="INFO">Clicking element 'xpath=//h6[text()="คลิกเพื่อสมัครสมาชิก"]'.</msg>
+<msg time="2025-03-30T12:12:55.951730" level="INFO">Clicking element 'xpath=//h6[text()="คลิกเพื่อสมัครสมาชิก"]'.</msg>
 <arg>xpath=//h6[text()="คลิกเพื่อสมัครสมาชิก"]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2025-03-30T11:57:10.472276" elapsed="0.070714"/>
+<status status="PASS" start="2025-03-30T12:12:55.951551" elapsed="0.063316"/>
 </kw>
-<status status="PASS" start="2025-03-30T11:57:10.314968" elapsed="0.228216"/>
+<status status="PASS" start="2025-03-30T12:12:55.827268" elapsed="0.187748"/>
 </kw>
-<status status="PASS" start="2025-03-30T11:57:10.313564" elapsed="0.229986"/>
+<status status="PASS" start="2025-03-30T12:12:55.826742" elapsed="0.188590"/>
 </test>
 <test id="s1-t3" name="Input form data from regsiter page" line="16">
 <kw name="Input form data from register screen" owner="login_page">
 <kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
 <arg>xpath=//input[@name="email"]</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" start="2025-03-30T11:57:10.545084" elapsed="0.020756"/>
+<status status="PASS" start="2025-03-30T12:12:56.016951" elapsed="0.014945"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2025-03-30T11:57:10.566249" level="INFO">Typing text 'NuneeKheemeow@gmail.com' into text field 'xpath=//input[@name="email"]'.</msg>
+<msg time="2025-03-30T12:12:56.032523" level="INFO">Typing text 'NuneeKheemeow@gmail.com' into text field 'xpath=//input[@name="email"]'.</msg>
 <arg>xpath=//input[@name="email"]</arg>
 <arg>${Email}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2025-03-30T11:57:10.566011" elapsed="0.106660"/>
+<status status="PASS" start="2025-03-30T12:12:56.032204" elapsed="0.108554"/>
 </kw>
 <kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
 <arg>xpath=//input[@name="firstName"]</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" start="2025-03-30T11:57:10.672843" elapsed="0.073878"/>
+<status status="PASS" start="2025-03-30T12:12:56.140926" elapsed="0.071243"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2025-03-30T11:57:10.747310" level="INFO">Typing text 'Anussara' into text field 'xpath=//input[@name="firstName"]'.</msg>
+<msg time="2025-03-30T12:12:56.212632" level="INFO">Typing text 'Anussara' into text field 'xpath=//input[@name="firstName"]'.</msg>
 <arg>xpath=//input[@name="firstName"]</arg>
 <arg>${firstName}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2025-03-30T11:57:10.746958" elapsed="0.386506"/>
+<status status="PASS" start="2025-03-30T12:12:56.212390" elapsed="0.309942"/>
 </kw>
 <kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
 <arg>xpath=//input[@name="lastName"]</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" start="2025-03-30T11:57:11.133668" elapsed="0.012221"/>
+<status status="PASS" start="2025-03-30T12:12:56.522501" elapsed="0.049822"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2025-03-30T11:57:11.146279" level="INFO">Typing text 'OOOOOOmanee' into text field 'xpath=//input[@name="lastName"]'.</msg>
+<msg time="2025-03-30T12:12:56.572690" level="INFO">Typing text 'OOOOOOmanee' into text field 'xpath=//input[@name="lastName"]'.</msg>
 <arg>xpath=//input[@name="lastName"]</arg>
 <arg>${lastName}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2025-03-30T11:57:11.146055" elapsed="0.054700"/>
+<status status="PASS" start="2025-03-30T12:12:56.572482" elapsed="0.050993"/>
 </kw>
 <kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
 <arg>xpath=//input[@name="phoneNumber"]</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" start="2025-03-30T11:57:11.200983" elapsed="0.038012"/>
+<status status="PASS" start="2025-03-30T12:12:56.623650" elapsed="0.012049"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2025-03-30T11:57:11.239354" level="INFO">Typing text '0969609568' into text field 'xpath=//input[@name="phoneNumber"]'.</msg>
+<msg time="2025-03-30T12:12:56.636091" level="INFO">Typing text '0969609568' into text field 'xpath=//input[@name="phoneNumber"]'.</msg>
 <arg>xpath=//input[@name="phoneNumber"]</arg>
 <arg>${PhoneNumber}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2025-03-30T11:57:11.239148" elapsed="0.054028"/>
+<status status="PASS" start="2025-03-30T12:12:56.635865" elapsed="0.083532"/>
 </kw>
 <kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
 <arg>xpath=//input[@name="newPassword"]</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" start="2025-03-30T11:57:11.293481" elapsed="0.010781"/>
+<status status="PASS" start="2025-03-30T12:12:56.719579" elapsed="0.012123"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2025-03-30T11:57:11.304620" level="INFO">Typing text 'Thungthong@13' into text field 'xpath=//input[@name="newPassword"]'.</msg>
+<msg time="2025-03-30T12:12:56.732090" level="INFO">Typing text 'Thungthong@13' into text field 'xpath=//input[@name="newPassword"]'.</msg>
 <arg>xpath=//input[@name="newPassword"]</arg>
 <arg>${Password}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2025-03-30T11:57:11.304416" elapsed="0.072357"/>
+<status status="PASS" start="2025-03-30T12:12:56.731869" elapsed="0.087527"/>
 </kw>
 <kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
 <arg>xpath=//input[@name="confirmPassword"]</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" start="2025-03-30T11:57:11.376968" elapsed="0.010861"/>
+<status status="PASS" start="2025-03-30T12:12:56.819565" elapsed="0.011462"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2025-03-30T11:57:11.388185" level="INFO">Typing text 'Thungthong@13' into text field 'xpath=//input[@name="confirmPassword"]'.</msg>
+<msg time="2025-03-30T12:12:56.831387" level="INFO">Typing text 'Thungthong@13' into text field 'xpath=//input[@name="confirmPassword"]'.</msg>
 <arg>xpath=//input[@name="confirmPassword"]</arg>
 <arg>${ConfirmPassword}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2025-03-30T11:57:11.387981" elapsed="0.052599"/>
+<status status="PASS" start="2025-03-30T12:12:56.831182" elapsed="0.050082"/>
 </kw>
 <kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
 <arg>xpath=//input[@name="consent" and @type="checkbox"]</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" start="2025-03-30T11:57:11.440749" elapsed="0.010782"/>
+<status status="PASS" start="2025-03-30T12:12:56.881436" elapsed="0.010538"/>
 </kw>
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2025-03-30T11:57:11.451843" level="INFO">Clicking element 'xpath=//input[@name="consent" and @type="checkbox"]'.</msg>
+<msg time="2025-03-30T12:12:56.892297" level="INFO">Clicking element 'xpath=//input[@name="consent" and @type="checkbox"]'.</msg>
 <arg>xpath=//input[@name="consent" and @type="checkbox"]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2025-03-30T11:57:11.451681" elapsed="0.042667"/>
+<status status="PASS" start="2025-03-30T12:12:56.892131" elapsed="0.039792"/>
 </kw>
 <kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
 <arg>xpath=//button[text()="สมัครสมาชิก"]</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" start="2025-03-30T11:57:11.494516" elapsed="0.011809"/>
+<status status="PASS" start="2025-03-30T12:12:56.932088" elapsed="0.011722"/>
 </kw>
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2025-03-30T11:57:11.506641" level="INFO">Clicking element 'xpath=//button[text()="สมัครสมาชิก"]'.</msg>
+<msg time="2025-03-30T12:12:56.944152" level="INFO">Clicking element 'xpath=//button[text()="สมัครสมาชิก"]'.</msg>
 <arg>xpath=//button[text()="สมัครสมาชิก"]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2025-03-30T11:57:11.506478" elapsed="0.067445"/>
+<status status="PASS" start="2025-03-30T12:12:56.943978" elapsed="0.068584"/>
 </kw>
-<status status="PASS" start="2025-03-30T11:57:10.544827" elapsed="1.029231"/>
+<status status="PASS" start="2025-03-30T12:12:56.016666" elapsed="0.996080"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2025-03-30T11:57:16.574613" level="INFO">Slept 5 seconds.</msg>
+<msg time="2025-03-30T12:13:02.013472" level="INFO">Slept 5 seconds.</msg>
 <arg>5</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2025-03-30T11:57:11.574354" elapsed="5.000352"/>
+<status status="PASS" start="2025-03-30T12:12:57.013049" elapsed="5.000521"/>
 </kw>
 <kw name="Close Browser" owner="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" start="2025-03-30T11:57:16.575054" elapsed="2.138784"/>
+<status status="PASS" start="2025-03-30T12:13:02.013907" elapsed="2.077241"/>
 </kw>
-<status status="PASS" start="2025-03-30T11:57:10.544348" elapsed="8.169978"/>
+<status status="PASS" start="2025-03-30T12:12:56.016090" elapsed="8.075364"/>
 </test>
-<status status="PASS" start="2025-03-30T11:57:06.889350" elapsed="11.825942"/>
+<status status="PASS" start="2025-03-30T12:12:53.424957" elapsed="10.667597"/>
 </suite>
 <statistics>
 <total>
@@ -151,6 +151,5 @@
 </suite>
 </statistics>
 <errors>
-<msg time="2025-03-30T11:57:10.313760" level="WARN">Multiple tests with name 'Register page testing' executed in suite 'Login Page'.</msg>
 </errors>
 </robot>
