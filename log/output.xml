@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.13.2 on win32)" generated="2025-03-30T00:43:52.543315" rpa="false" schemaversion="5">
+<suite id="s1" name="Login Page" source="C:\Users\Meow\Desktop\Future skill assignment\testcases\login_page.robot">
+<test id="s1-t1" name="Login test" line="9">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-03-30T00:43:52.783231" level="INFO">Opening browser 'chrome' to base url 'https://app.futureskill.co/'.</msg>
+<arg>${baseUrl}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-03-30T00:43:52.782950" elapsed="2.068000"/>
+</kw>
+<kw name="Input email and password then click login">
+<msg time="2025-03-30T00:43:54.854074" level="FAIL">No keyword with name 'Input email and password then click login' found.</msg>
+<status status="FAIL" start="2025-03-30T00:43:54.853941" elapsed="0.000229">No keyword with name 'Input email and password then click login' found.</status>
+</kw>
+<kw name="Click submit on popup main login_page">
+<status status="NOT RUN" start="2025-03-30T00:43:54.854612" elapsed="0.000067"/>
+</kw>
+<status status="FAIL" start="2025-03-30T00:43:52.781949" elapsed="2.073144">No keyword with name 'Input email and password then click login' found.</status>
+</test>
+<test id="s1-t2" name="Search item test" line="14">
+<kw name="Click search and input text">
+<msg time="2025-03-30T00:43:54.859455" level="FAIL">No keyword with name 'Click search and input text' found.</msg>
+<status status="FAIL" start="2025-03-30T00:43:54.859325" elapsed="0.000220">No keyword with name 'Click search and input text' found.</status>
+</kw>
+<status status="FAIL" start="2025-03-30T00:43:54.855953" elapsed="0.004183">No keyword with name 'Click search and input text' found.</status>
+</test>
+<test id="s1-t3" name="Click back and select my knowledg test" line="17">
+<kw name="Click back and click profile then select my knowledg">
+<msg time="2025-03-30T00:43:54.863737" level="FAIL">No keyword with name 'Click back and click profile then select my knowledg' found.</msg>
+<status status="FAIL" start="2025-03-30T00:43:54.863612" elapsed="0.000212">No keyword with name 'Click back and click profile then select my knowledg' found.</status>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>10</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2025-03-30T00:43:54.864196" elapsed="0.000058"/>
+</kw>
+<status status="FAIL" start="2025-03-30T00:43:54.861338" elapsed="0.003233">No keyword with name 'Click back and click profile then select my knowledg' found.</status>
+</test>
+<status status="FAIL" start="2025-03-30T00:43:52.544555" elapsed="2.322350"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="3" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Login Page" id="s1" pass="0" fail="3" skip="0">Login Page</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-03-30T00:43:52.780625" level="WARN">Imported resource file 'C:\Users\Meow\Desktop\Future skill assignment\Keywords\login_page.robot' is empty.</msg>
+</errors>
+</robot>
